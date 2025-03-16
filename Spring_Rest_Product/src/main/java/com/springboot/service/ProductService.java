@@ -25,7 +25,7 @@ public class ProductService
 		
 		List<Product> saveAll = productRepo.saveAll(list);
 		
-		saveAll.stream().filter(null)
+		
 		
 		 return saveAll.stream().filter(p->p.getProductCost()>5000).collect(Collectors.toList());
 		
